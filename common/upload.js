@@ -8,7 +8,7 @@ class FileUpload {
 
     async upload(stream) {
         let res = await request.post({
-            url: "https://xxx.com/api/upload/file",
+            url: "https://image.qll-times.com/api/upload/file",
             formData: {
                 file: {
                     value: stream,

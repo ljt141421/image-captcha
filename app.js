@@ -8,6 +8,9 @@ const logger = require('koa-logger')
 // error handler
 onerror(app)
 
+const webapi = require('./common/koa-webapi');
+webapi(app);
+
 // middlewares
 app.use(bodyparser({
     enableTypes: ['json', 'form', 'text']
