@@ -1,58 +1,58 @@
 {
-    "LLWchannel": "mysql://qlldev:hMxkDzLn8uHI7WVw@39.105.114.148:3306/LLWchannel_v2?debug=false&charset=utf8mb4&multipleStatements=true&dateStrings=true",
+    "LLWchannel": "your mysql connect url",
     "usercenter": {
-      "dbname":"usercenter",
-      "username": "qlldev", 
-      "password": "hMxkDzLn8uHI7WVw",
+      "dbname":"your dbname",
+      "username": "your username", 
+      "password": "your password",
       "options" : {
         "replication": {
           "read": [
-              { "host": "39.105.114.148"},
-              { "host": "39.105.114.148"}
+              { "host": "your mysql server host"},
+              { "host": "your mysql server host"}
           ],
-          "write": { "host": "39.105.114.148"}
+          "write": { "host": "your mysql server host"}
         }
       }
     },
     "configcenter": {
-      "dbname":"usercenter",
-      "username": "qlldev", 
-      "password": "hMxkDzLn8uHI7WVw",
+      "dbname":"your dbname",
+      "username": "your username",
+      "password": "your password",
       "options" : {
         "replication": {
           "read": [
-              { "host": "39.105.114.148"},
-              { "host": "39.105.114.148"}
+              { "host": "your mysql server host"},
+              { "host": "your mysql server host"}
           ],
-          "write": { "host": "39.105.114.148"}
+          "write": { "host": "your mysql server host"}
         }
       }
     },
     "activitycenter": {
-      "dbname":"activitycenter",
-      "username": "qlldev", 
-      "password": "hMxkDzLn8uHI7WVw",
+      "dbname":"your dbname",
+      "username": "your username",
+      "password": "your password",
       "options" : {
         "replication": {
           "read": [
-              { "host": "39.105.114.148"},
-              { "host": "39.105.114.148"}
+              { "host": "your mysql server host"},
+              { "host": "your mysql server host"}
           ],
-          "write": { "host": "39.105.114.148"}
+          "write": { "host": "your mysql server host"}
         }
       }
     },
     "channelcenter": {
-      "dbname":"LLWchannel_v2",
-      "username": "qlldev", 
-      "password": "hMxkDzLn8uHI7WVw",
+      "dbname":"your dbname",
+      "username": "your username",
+      "password": "password",
       "options" : {
         "replication": {
           "read": [
-              { "host": "39.105.114.148"},
-              { "host": "39.105.114.148"}
+              { "host": "your mysql server host"},
+              { "host": "your mysql server host"}
           ],
-          "write": { "host": "39.105.114.148"}
+          "write": { "host": "your mysql server host"}
         }
       }
     }

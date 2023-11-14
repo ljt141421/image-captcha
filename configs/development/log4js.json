@@ -1,0 +1,14 @@
+{
+  "appenders": {
+    "out": { "type": "stdout" },
+    "app": {"type": "file", "filename": "./logs/all.log", "maxLogSize": 10485760000, "backups": 7},
+    "ActivityRecharge": {"type": "file", "filename": "./logs/ActivityRecharge.log", "maxLogSize": 10485760000, "backups": 7},
+    "recharge": {"type": "file", "filename": "./logs/recharge.log", "maxLogSize": 10485760000, "backups": 7}
+  },
+  "categories": {
+    "default": {"appenders": ["out","app"], "level": "debug"},
+    "ActivityRecharge": {"appenders": ["ActivityRecharge"], "level": "debug"},
+    "recharge": {"appenders": ["recharge"], "level": "debug"}
+  },
+  "pm2":true
+}
