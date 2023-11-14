@@ -1,0 +1,59 @@
+{
+    "LLWchannel": "mysql://qlldev:hMxkDzLn8uHI7WVw@39.105.114.148:3306/LLWchannel_v2?debug=false&charset=utf8mb4&multipleStatements=true&dateStrings=true",
+    "usercenter": {
+      "dbname":"usercenter",
+      "username": "qlldev", 
+      "password": "hMxkDzLn8uHI7WVw",
+      "options" : {
+        "replication": {
+          "read": [
+              { "host": "39.105.114.148"},
+              { "host": "39.105.114.148"}
+          ],
+          "write": { "host": "39.105.114.148"}
+        }
+      }
+    },
+    "configcenter": {
+      "dbname":"usercenter",
+      "username": "qlldev", 
+      "password": "hMxkDzLn8uHI7WVw",
+      "options" : {
+        "replication": {
+          "read": [
+              { "host": "39.105.114.148"},
+              { "host": "39.105.114.148"}
+          ],
+          "write": { "host": "39.105.114.148"}
+        }
+      }
+    },
+    "activitycenter": {
+      "dbname":"activitycenter",
+      "username": "qlldev", 
+      "password": "hMxkDzLn8uHI7WVw",
+      "options" : {
+        "replication": {
+          "read": [
+              { "host": "39.105.114.148"},
+              { "host": "39.105.114.148"}
+          ],
+          "write": { "host": "39.105.114.148"}
+        }
+      }
+    },
+    "channelcenter": {
+      "dbname":"LLWchannel_v2",
+      "username": "qlldev", 
+      "password": "hMxkDzLn8uHI7WVw",
+      "options" : {
+        "replication": {
+          "read": [
+              { "host": "39.105.114.148"},
+              { "host": "39.105.114.148"}
+          ],
+          "write": { "host": "39.105.114.148"}
+        }
+      }
+    }
+  }

@@ -1,0 +1,23 @@
+# Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+logs
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.grunt
+.lock-wscript
+dist/
+.idea
+node_modules
+.npm
+.node_repl_history
+package-lock.json
+.vscode
+yarn.lock
+.history
+rDrwvM/
+04debc61-c6a8-4782-bf25-1da7b5548e27/
