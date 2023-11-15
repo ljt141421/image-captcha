@@ -20,7 +20,8 @@
     "request": "^2.81.0",
     "mysql2": "^1.5.3",
     "sequelize": "^5.22.5",
-    "log4js": "^2.8.0"
+    "log4js": "^2.8.0",
+    "glob": "^7.1.2"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
