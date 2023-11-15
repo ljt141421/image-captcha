@@ -5,7 +5,7 @@
 const router = require('koa-router')();
 const glob = require('glob');
 
-glob.sync(__dirname + '/controllers/**/*.js').forEach(file => {
+glob.sync(__dirname + '/controller/**/*.js').forEach(file => {
     const ctrlObj = require(file);
     for (let i in ctrlObj) {
         let path = '/api' + ctrlObj[i].path;
